@@ -1,7 +1,7 @@
 # lflxp-api
 Using boltdb to quickly build the local key / value restful API for local monitoring, etc
 
-![](https://github.com/lflxp/lflxp-api/tree/master/asset/b1.png)
+![](https://github.com/lflxp/lflxp-api/blob/master/asset/b1.png)
 
 # Requirements
 
@@ -80,7 +80,7 @@ Usage of lflxp-api:
 Open http://127.0.0.1:8080 in browser
 
 # Prefix interface
-![](https://github.com/lflxp/lflxp-api/tree/master/asset/b2.png)
+![](https://github.com/lflxp/lflxp-api/blob/master/asset/b2.png)
 
 It mainly provides basic operation functions, including:
 
@@ -118,7 +118,7 @@ Provide HTTP backup data function
 
 Visual interface of API based on gin swagger
 
-![](https://github.com/lflxp/lflxp-api/tree/master/asset/b3.png)
+![](https://github.com/lflxp/lflxp-api/blob/master/asset/b3.png)
 
 # Making data
 
