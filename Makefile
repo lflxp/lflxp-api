@@ -8,11 +8,13 @@ build: asset
 
 asset: bindata clean
 	cd pkg/static && go-bindata -o=../asset.go -pkg=pkg ./
+	cd pkg && swag init
 
 bindata:
 	@echo 安装预制环境
 	go get -u github.com/jteeuwen/go-bindata/...
 	go get -u github.com/elazarl/go-bindata-assetfs/...
+	go get -u github.com/swaggo/swag/cmd/swag
 
 push: asset pull
 	git add .

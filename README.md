@@ -7,6 +7,7 @@ Using boltdb to quickly build the local key / value restful API for local monito
 
 * go get -u github.com/jteeuwen/go-bindata/...
 * go get -u github.com/elazarl/go-bindata-assetfs/...
+* go get -u github.com/swaggo/swag/cmd/swag
 
 # Install
 
